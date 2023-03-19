@@ -4,6 +4,7 @@ import ControlledForm from "./controlled/ControlledForm";
 import UncontrolledForm from "./uncontrolled/UncontrolledForm";
 import Table from "./Table/Table";
 
+
 function App() {
 
   // useEffect
@@ -23,7 +24,7 @@ function App() {
       </div>
 
       <div className="TableComponent">
-        {/* <Table data={} /> */}
+        <Table />
       </div>
     </div>
   );

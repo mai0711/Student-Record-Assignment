@@ -44,6 +44,7 @@ export default function ControlledForm() {
       rollNumber: studentRollNumber
     };
     setValueInLocalStorage('students', studentObject);
+
   }
 
   return (

@@ -1,6 +1,6 @@
 export function fetchDataFromLocalStorage(key) {
   let data = localStorage.getItem(key);
-
+  
   if (data) {
     return JSON.parse(data);
   }
@@ -13,6 +13,5 @@ export function setValueInLocalStorage(key, incomingData) {
   data.push(incomingData);
   localStorage.setItem(key, JSON.stringify(data));
 }
-
 
 // Create a custom Hook as well

@@ -1,0 +1,17 @@
+.title {
+    margin-top: 50px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+table {
+    background-color: lightpink;
+    height: 150px;
+    width: 100%;
+}
